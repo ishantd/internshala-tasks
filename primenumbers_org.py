@@ -15,11 +15,6 @@ def series():
     return ((5*series_list[ele-1])-(2*series_list[ele-2]))
 
 
-for i in range(2, 10000):
-    series_list.append(series())
-print("COMPLETE")
-
-
 def is_part_of_series(lst):
     result_list = []
     for x in lst:
